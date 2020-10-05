@@ -1,10 +1,12 @@
 sudo: required
-
+dist: focal
+virt: vm
+group: edge
 language: go
 
 arch:
   - amd64
-  - arm64
+  - arm64-graviton2
 services:
 - docker
 
