@@ -11,6 +11,7 @@ go:
 install: true
 
 script:
+  - service docker status
   - make
 
 deploy:
